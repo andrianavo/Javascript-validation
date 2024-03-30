@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+    <script defer src="./index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Registration</h1>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text" required> 
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="username" type="text"> 
+                <div class="error"></div> 
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password" name="username" type="text"> 
+                <div class="error"></div> 
+            </div>
+            <div class="input-control">
+                <label for="password">Password try again</label>
+                <input id="password2" name="password2" type="text"> 
+                <div class="error"></div> 
+            </div>
+            <button type="submit">Sign up</button>
+        </form>
+    </div>    
+</body>
+</html>
